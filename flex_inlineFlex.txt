@@ -1,0 +1,2 @@
+If you want your flex container to behave like a block-level element, use flex.
+If you want your flex container to behave like an inline-level element, use inline-flex.
