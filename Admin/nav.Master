@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="nav.master.cs" Inherits="Portfolio_ASP.Admin.nav" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+        <script>
+            function preventFormSubmission(event) {
+                if (event.keyCode === 13) { 
+                    event.preventDefault(); 
+                    return false;
+                }
+            }
+        </script>
+
+          <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <link rel="stylesheet" href="./font/font.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./images2/favicon2.png">
+  <link rel="preload" as="image" href="./images2/loading-circle.svg">
+
+       <script>
+           function preventFormSubmission(event) {
+               if (event.keyCode === 13) {
+                   event.preventDefault();
+                   return false;
+               }
+           }
+       </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="active">
+        <!-- 
+    -#PRELOADING
+  -->
+
+  <div class="loading" data-loading>
+    <img src="./images2/favicon2.png" width="55" height="55" alt="loading" class="img">
+    <img src="./images2/loading-circle.svg" width="70" height="70" alt="" class="circle">
+  </div>
+    
+   <!-- 
+    Header Part
+
+    -->
+
+    <header>
+      <div class="logo">
+           shipra...
+      </div>
+
+      <ul class="navlist">
+        
+        <li><a href="./index.aspx">Myself</a></li>
+        <li><a href="./education.aspx">Education</a></li>
+        <li><a href="./skill.aspx">Skill</a></li>
+        <li><a href="./achievements.aspx">Achievement</a></li>
+        <li><a href="./project.aspx">Project</a></li>
+        <li><a href="./contact.aspx" >Contact Me</a></li>
+        <li><a href="#" onclick="logout()">Logout</a></li>
+        <li><a href="../index.aspx">View</a></li>
+
+
+      </ul>
+      <div id="menu-icon" class="menu-icon">
+        <img src="images2/menu.svg" alt="" height="22px" width="22px">
+         
+      </div>
+    </header>
+   
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+    <script>
+    function logout() {
+        window.location.href = "logout.aspx";
+    }
+    </script>
+ 
+</body>
+</html>
