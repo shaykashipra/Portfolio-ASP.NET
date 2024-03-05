@@ -11,7 +11,7 @@
 # some snaps from responsive admin panel
 ### Log in Using Hashing
 ![Screenshot (137)](https://github.com/shaykashipra/Portfolio-ASP.NET/assets/134440868/a42ce9b1-3639-4dac-8230-898b686d45fb)
-every section has add,update and delete option
+### every section has add,update and delete option
 ![Screenshot (138)](https://github.com/shaykashipra/Portfolio-ASP.NET/assets/134440868/f5bd6a7e-ffbd-4ea8-821c-99a4e67a9454)
 ![Screenshot (139)](https://github.com/shaykashipra/Portfolio-ASP.NET/assets/134440868/d6c83e89-3d7d-48b5-82a8-3dfa48170295)
 ![Screenshot (140)](https://github.com/shaykashipra/Portfolio-ASP.NET/assets/134440868/26feffc5-8684-4052-86d9-3a26d7cbb966)
