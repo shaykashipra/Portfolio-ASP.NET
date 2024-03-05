@@ -1,4 +1,4 @@
-some snaps from viewer panel
+# some snaps from responsive viewer panel
 ![Screenshot (130)](https://github.com/shaykashipra/Portfolio-ASP.NET/assets/134440868/6d9fea45-c3f6-4740-9fbb-e8c56bdae2f2)
 ![Screenshot (131)](https://github.com/shaykashipra/Portfolio-ASP.NET/assets/134440868/36e51cf2-798c-427e-8427-563750679b3b)
 ![Screenshot (129)](https://github.com/shaykashipra/Portfolio-ASP.NET/assets/134440868/a9ee2d22-5d89-4918-896b-e2adab361879)
@@ -8,8 +8,8 @@ some snaps from viewer panel
 ![Screenshot (135)](https://github.com/shaykashipra/Portfolio-ASP.NET/assets/134440868/2ed50e0e-f42f-495a-b685-ce370910591c)
 
 
-some snaps from admin panel
-#Log in Using Hashing
+# some snaps from responsive admin panel
+### Log in Using Hashing
 ![Screenshot (137)](https://github.com/shaykashipra/Portfolio-ASP.NET/assets/134440868/a42ce9b1-3639-4dac-8230-898b686d45fb)
 every section has add,update and delete option
 ![Screenshot (138)](https://github.com/shaykashipra/Portfolio-ASP.NET/assets/134440868/f5bd6a7e-ffbd-4ea8-821c-99a4e67a9454)
